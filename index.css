@@ -1,0 +1,129 @@
+* {
+        box-sizing: border-box;
+}
+
+body {
+        margin: 0;
+        padding: 0;
+}
+
+.logo {
+        height: 80px;
+        float: left;
+        width: 50%;
+        position: relative;
+        font-family: "Fugaz One";
+        font-size: 30px;
+        color: white;
+        background-color: #3c3d3d;
+}
+
+.logo h1 {
+    margin-top: 0;
+    margin: 0;
+    display: inline;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+.menu {
+    height: 80px;
+    background-color: #3c3d3d;
+    float: right;
+    width: 50%;
+}
+
+  .menu li {
+      list-style: none;
+      color: white;
+      padding: 10px 15px;
+      font-size: 18px;
+      float: left;
+      position: relative;
+      left: 30%;
+      font-family: Federo;
+      color: white;
+      text-transform: uppercase;
+      margin-top: 5px;
+  }
+
+.header {
+    height: 600px;
+    background: url("/homepage/background.jpg") no-repeat center;
+    background-size: cover;
+    clear: both;
+    position: relative;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.text h2 {
+    font-size: 70px;
+    text-align: center;
+    font-family: "Courgette";
+    margin:0;
+    padding:0;
+    color: #3c3d3d;
+}
+
+.text p {
+    font-family: Federo;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section .article img {
+  margin: 50px 10px 20px 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.article {
+    height: 800px;
+    /*border-top-color: white;*/
+    /*border-top-width: 3px;*/
+    /*border-top-style: solid;*/
+    background-color: rgba(229, 162, 155, 0.3);
+    float: left;
+    width: 33.3333%;
+    font-size: 18px;
+    text-align: center;
+    font-family: Federo;
+    line-height: 1.5em;
+}
+
+.category {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer p{
+    background-color: #3c3d3d;
+    height: 60px;
+    font-size: 18px;
+    font-family: "Times New Roman";
+    text-align: center;
+    padding-top: 20px;
+    margin: 0;
+    color: white;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
