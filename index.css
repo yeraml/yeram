@@ -19,9 +19,7 @@ body {
 }
 
 .logo h1 {
-    margin-top: 0;
     margin: 0;
-    display: inline;
     position: absolute;
     top: 50%;
     left: 30%;
@@ -35,7 +33,7 @@ body {
     width: 50%;
 }
 
-  .menu li {
+.menu li {
       list-style: none;
       color: white;
       padding: 10px 15px;
@@ -44,10 +42,15 @@ body {
       position: relative;
       left: 30%;
       font-family: Federo;
-      color: white;
       text-transform: uppercase;
       margin-top: 5px;
-  }
+}
+
+.logo::after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 .header {
     height: 600px;
@@ -78,7 +81,6 @@ body {
     font-family: Federo;
     font-size: 20px;
     text-align: center;
-    padding-top: 30px;
 }
 
 .section .article img {
@@ -89,9 +91,6 @@ body {
 
 .article {
     height: 800px;
-    /*border-top-color: white;*/
-    /*border-top-width: 3px;*/
-    /*border-top-style: solid;*/
     background-color: rgba(229, 162, 155, 0.3);
     float: left;
     width: 33.3333%;
