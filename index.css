@@ -3,27 +3,29 @@
 }
 
 body {
-        margin: 0;
-        padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
 }
 
 .logo {
-        height: 80px;
-        float: left;
-        width: 50%;
-        position: relative;
-        font-family: "Fugaz One";
-        font-size: 30px;
-        color: white;
-        background-color: #3c3d3d;
+    height: 80px;
+    float: left;
+    width: 50%;
+    position: relative;
+    font-family: "Fugaz One";
+    font-size: 30px;
+    color: white;
+    background-color: #3c3d3d;
 }
 
 .logo h1 {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+    margin: 0 0 0 10%;
+    line-height: 80px;
 }
 
 .menu {
@@ -33,17 +35,21 @@ body {
     width: 50%;
 }
 
+.menu ul {
+    margin: 0;
+}
+
 .menu li {
-      list-style: none;
-      color: white;
-      padding: 10px 15px;
-      font-size: 18px;
-      float: left;
-      position: relative;
-      left: 30%;
-      font-family: Federo;
-      text-transform: uppercase;
-      margin-top: 5px;
+    list-style: none;
+    color: white;
+    padding: 0 15px;
+    font-size: 18px;
+    float: left;
+    position: relative;
+    left: 30%;
+    font-family: Federo;
+    text-transform: uppercase;
+    line-height: 80px;
 }
 
 .logo::after {
@@ -54,18 +60,20 @@ body {
 
 .header {
     height: 600px;
-    background: url("/homepage/background.jpg") no-repeat center;
+    background-image: url("/homepage/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     clear: both;
     position: relative;
 }
 
 .text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .text h2 {
@@ -84,9 +92,9 @@ body {
 }
 
 .section .article img {
-  margin: 50px 10px 20px 10px;
-  width: 300px;
-  height: 300px;
+    margin: 50px 10px 20px 10px;
+    width: 300px;
+    height: 300px;
 }
 
 .article {
@@ -106,9 +114,9 @@ body {
 }
 
 .section::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 footer p{
@@ -120,9 +128,4 @@ footer p{
     padding-top: 20px;
     margin: 0;
     color: white;
-}
-
-#container{
-    width: 960px;
-    margin: 0 auto;
 }
