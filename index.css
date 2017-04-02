@@ -60,7 +60,7 @@ body {
 
 .header {
     height: 600px;
-    background-image: url("/homepage/background.png");
+    background-image: url("/homepage/yay.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -92,7 +92,7 @@ body {
 }
 
 .section .article img {
-    margin: 50px 10px 20px 10px;
+    margin-top: 50px;
     width: 300px;
     height: 300px;
 }
@@ -121,11 +121,10 @@ body {
 
 footer p{
     background-color: #3c3d3d;
-    height: 60px;
     font-size: 18px;
     font-family: "Times New Roman";
     text-align: center;
-    padding-top: 20px;
     margin: 0;
     color: white;
+    line-height: 60px;
 }
