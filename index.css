@@ -97,11 +97,14 @@ body {
     height: 300px;
 }
 
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+
 .article {
     height: 800px;
     background-color: rgba(229, 162, 155, 0.3);
-    float: left;
-    width: 33.3333%;
     font-size: 18px;
     text-align: center;
     font-family: Federo;
