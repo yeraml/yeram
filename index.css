@@ -118,12 +118,6 @@ body {
     font-size: 23px;
 }
 
-.section::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 footer p{
     background-color: #3c3d3d;
     font-size: 18px;
